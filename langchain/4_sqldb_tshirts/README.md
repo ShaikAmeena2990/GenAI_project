@@ -73,3 +73,44 @@ streamlit run main.py
 - requirements.txt: A list of required Python packages for the project.
 - few_shots.py: Contains few shot prompts
 - .env: Configuration file for storing your Google API key.
+
+🧠 How It Works
+
+User asks a question in English
+            |
+            v
+      LangChain
+            |
+            v
+      LLM Model
+            |
+            v
+    SQL Query Generation
+            |
+            v
+       MySQL Database
+            |
+            v
+      Query Execution
+            |
+            v
+     Natural Language Answer
+            |
+            v
+       User Interface
+
+📚 Learning Outcomes
+
+--Through this project, I explored:
+
+--Building LLM-powered database applications.
+
+--Connecting LangChain with relational databases.
+
+--Converting natural language questions into SQL.
+
+--Implementing few-shot prompting.
+
+--Integrating LLMs with MySQL.
+
+--Building practical Generative AI applications.
