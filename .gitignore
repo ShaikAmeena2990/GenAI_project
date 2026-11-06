@@ -1,9 +1,9 @@
-﻿/langchain/
-/.venv_new/
-.venv/
-venv/
+﻿.venv/
+.venv_new/
+**/.venv/
+**/.venv_new/
 **/.env
 **/chroma_db/
-__pycache__/
+**/__pycache__/
 *.pyc
 .ipynb_checkpoints/
