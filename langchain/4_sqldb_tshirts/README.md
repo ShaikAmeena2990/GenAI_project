@@ -78,25 +78,18 @@ streamlit run main.py
 
 User asks a question in English
             |
-            v
       LangChain
             |
-            v
       LLM Model
             |
-            v
     SQL Query Generation
             |
-            v
        MySQL Database
             |
-            v
       Query Execution
             |
-            v
-     Natural Language Answer
+      Natural Language Answer
             |
-            v
        User Interface
 
 📚 Learning Outcomes
